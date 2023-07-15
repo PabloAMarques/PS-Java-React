@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="br/com/banco/service/|br/com/banco/repository/|br/com/banco/model/" kind="src" path="backend/src/main/java"/>
+	<classpathentry kind="src" path="backend/src/main/java/br/com/banco/model"/>
+	<classpathentry kind="src" path="backend/src/main/java/br/com/banco/repository"/>
+	<classpathentry kind="src" path="backend/src/main/java/br/com/banco/service"/>
+	<classpathentry kind="src" path="backend/src/test/java"/>
+	<classpathentry kind="lib" path="backend/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="output" path="backend/target/classes"/>
+</classpath>
